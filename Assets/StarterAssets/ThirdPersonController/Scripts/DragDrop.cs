@@ -9,17 +9,22 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+    private Vector3 startPosition;
+    private bool isDroppedOnSlot;
 
     private void Awake()
     {
-        rectTransform =GetComponent<RectTransform>();
+        rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
+        startPosition = rectTransform.anchoredPosition; // Baþlangýç pozisyonunu kaydet
     }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("dfg");
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
+        isDroppedOnSlot = false; // Drag baþladýðýnda, slotta býrakýlmadýðýný varsay
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -32,7 +37,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         Debug.Log("dfg");
         canvasGroup.alpha = 1f;
-        canvasGroup.blocksRaycasts=true;
+        canvasGroup.blocksRaycasts = true;
+
+        if (!isDroppedOnSlot)
+        {
+            rectTransform.anchoredPosition = startPosition; // Eski pozisyona dön
+        }
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -40,5 +50,11 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         Debug.Log("dfg");
     }
 
-    
+    // Slotta býrakýldýðýnda bu metod çaðrýlacak
+    public void SetDroppedOnSlot(bool dropped)
+    {
+        isDroppedOnSlot = dropped;
+    }
 }
+
+

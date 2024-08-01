@@ -6,7 +6,9 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     public GameObject canvas1; // UI öðesi
+    public GameObject canvas2;
     public GameObject character; // Karakter GameObject'i
+    
     //private Controller2 controllerScript; // Karakterin kontrol script'i
 
     void Start()
@@ -21,7 +23,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         // UI açýk mý kontrol edin
-        if (canvas1.activeSelf)
+        if (canvas1.activeSelf || canvas2.activeSelf)
         {
             // Karakterin kontrol script'ini devre dýþý býrak
             //if (controllerScript != null)
@@ -58,6 +60,16 @@ public class UIController : MonoBehaviour
         {
             canvas1.SetActive(false);
             Cursor.visible = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            canvas2.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            canvas2.SetActive(false);
         }
     }
 }

@@ -7,7 +7,15 @@ public class ItemSlot : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            RectTransform draggedObject = eventData.pointerDrag.GetComponent<RectTransform>();
+            DragDrop dragDropScript = eventData.pointerDrag.GetComponent<DragDrop>();
+
+            if (dragDropScript != null)
+            {
+                draggedObject.anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                dragDropScript.SetDroppedOnSlot(true); // Slotta býrakýldýðýný iþaretle
+            }
         }
     }
 }
+

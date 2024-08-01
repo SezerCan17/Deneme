@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class GameManager : MonoBehaviour
     public Transform enemyTarget;
     public Transform healthBar;
     public Transform spawnReferencePoint; // Spawn pozisyonunu referans alacak GameObject'in Transform'u
+    public GameObject canvasMenu;
+    public GameObject mainMenuCanvas;
+    public GameObject CameraMenu;
+    public GameObject CharacterDance;
 
     int spawnCount = 0;
     float nextSpawnDelay = 5f; // Spawn delay süresini 5 saniye olarak belirleyin
@@ -55,5 +60,24 @@ public class GameManager : MonoBehaviour
 
         activeEnemies.Add(enemyComponent);
         spawnCount++;
+    }
+
+
+    public void StartButton()
+    {
+       //ameraMenu.SetActive(true);
+        mainMenuCanvas.SetActive(false);
+    //  CharacterDance.SetActive(false);
+     canvasMenu.SetActive(true);
+    }
+
+    public void SettingsButton()
+    {
+       //ceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
     }
 }

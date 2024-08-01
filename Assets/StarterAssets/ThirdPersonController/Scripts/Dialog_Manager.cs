@@ -22,6 +22,7 @@ public class Dialog_Manager : MonoBehaviourPun
         {
             dialogueObject.SetActive(false);
         }
+        Debug.Log("Dialog_Manager baþlatýldý. Tüm konuþma balonlarý gizlendi.");
     }
 
     public void ShowNextDialogue()
@@ -39,13 +40,21 @@ public class Dialog_Manager : MonoBehaviourPun
                 {
                     dialogueObject.SetActive(false);
                 }
+                Debug.Log("Önceki diyaloðu gizledik.");
             }
 
             // Mevcut diyaloðu göster
             if (currentDialogueIndex < player1DialogueObjects.Length)
             {
-                player1DialogueObjects[currentDialogueIndex].SetActive(true);
-                player2DialogueObjects[currentDialogueIndex].SetActive(true);
+                foreach (var dialogueObject in player1DialogueObjects)
+                {
+                    dialogueObject.SetActive(true);
+                }
+                foreach (var dialogueObject in player2DialogueObjects)
+                {
+                    dialogueObject.SetActive(true);
+                }
+                Debug.Log($"Diyalog gösteriliyor: {currentDialogueIndex}");
                 currentDialogueIndex++;
             }
             else
@@ -61,6 +70,7 @@ public class Dialog_Manager : MonoBehaviourPun
     {
         currentDialogueIndex = 0;
         isDialogueActive = true;
+        Debug.Log("Diyalog baþlatýlýyor.");
         ShowNextDialogue();
         photonView.RPC("StartDialogueRPC", RpcTarget.Others);
     }
@@ -70,11 +80,13 @@ public class Dialog_Manager : MonoBehaviourPun
     {
         currentDialogueIndex = 0;
         isDialogueActive = true;
+        Debug.Log("Diyalog baþlatýlýyor (RPC).");
         ShowNextDialogue();
     }
 
     public void OnDialogueButtonPressed()
     {
+        Debug.Log("Diyalog butonuna basýldý.");
         ShowNextDialogue();
         photonView.RPC("ShowNextDialogueRPC", RpcTarget.Others);
     }
@@ -82,6 +94,7 @@ public class Dialog_Manager : MonoBehaviourPun
     [PunRPC]
     public void ShowNextDialogueRPC()
     {
+        Debug.Log("Diyalog gösteriliyor (RPC).");
         ShowNextDialogue();
     }
 
@@ -96,10 +109,12 @@ public class Dialog_Manager : MonoBehaviourPun
         {
             dialogueObject.SetActive(false);
         }
+        Debug.Log("Tüm diyaloglar gizlendi (RPC).");
     }
 
     public void PlayerInteracted(int playerID)
     {
+        Debug.Log($"Oyuncu {playerID} etkileþimde bulundu.");
         if (playerID == 1)
         {
             player1Interacted = true;
@@ -119,5 +134,6 @@ public class Dialog_Manager : MonoBehaviourPun
     {
         player1Interacted = false;
         player2Interacted = false;
+        Debug.Log("Etkileþimler sýfýrlandý.");
     }
 }

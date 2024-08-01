@@ -3,20 +3,24 @@ using Photon.Pun;
 
 public class DialogueTrigger : MonoBehaviourPun
 {
-    public Dialog_Manager dialogManager;
+    public GameObject canvas1;
+    public GameObject canvas1_2;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            int playerID = other.GetComponent<PhotonView>().OwnerActorNr; // Oyuncunun ID'sini alýn
-            photonView.RPC("PlayerInteractedRPC", RpcTarget.All, playerID);
+            canvas1.SetActive(true);
+            canvas1_2.SetActive(true);
         }
     }
 
-    [PunRPC]
-    public void PlayerInteractedRPC(int playerID)
+    private void OnTriggerExit(Collider other)
     {
-        dialogManager.PlayerInteracted(playerID);
+        if (other.CompareTag("Player"))
+        {
+            canvas1.SetActive(false);
+            canvas1_2.SetActive(false);
+        }
     }
 }

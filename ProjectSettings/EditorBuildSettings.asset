@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: "Assets/Game/Tu\u011Fba.unity"
     guid: 7f95a00698968e34482a0235dec4f1e2
+  - enabled: 0
+    path: Assets/StarterAssets/ThirdPersonController/Scenes/New Scene.unity
+    guid: f09936e7be629bc4384d991f8258471c
   m_configObjects: {}

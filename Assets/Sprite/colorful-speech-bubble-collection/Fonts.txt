@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Bebas
+Author: Flat-it
+Url: http://www.fontsquirrel.com/fonts/bebas
+
+Font: Bubblegum Sans
+Author: Sudtipos
+Url: http://www.fontsquirrel.com/fonts/bubblegum-sans

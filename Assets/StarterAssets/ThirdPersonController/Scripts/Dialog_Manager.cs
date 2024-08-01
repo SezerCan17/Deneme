@@ -6,6 +6,7 @@ public class Dialog_Manager : MonoBehaviour
 {
     public GameObject[] dialogueObjects; // Konuþma balonlarýný tutan dizi
     private int currentDialogueIndex = 0;
+    public bool isDialogueActive = false;
 
     void Start()
     {
@@ -14,29 +15,37 @@ public class Dialog_Manager : MonoBehaviour
         {
             dialogueObject.SetActive(false);
         }
-
-        // Ýlk diyaloðu göster
-        ShowNextDialogue();
     }
 
     public void ShowNextDialogue()
     {
-        // Önceki diyaloðu gizle
-        if (currentDialogueIndex > 0)
+        if (isDialogueActive)
         {
-            dialogueObjects[currentDialogueIndex - 1].SetActive(false);
-        }
+            // Önceki diyaloðu gizle
+            if (currentDialogueIndex > 0)
+            {
+                dialogueObjects[currentDialogueIndex - 1].SetActive(false);
+            }
 
-        // Mevcut diyaloðu göster
-        if (currentDialogueIndex < dialogueObjects.Length)
-        {
-            dialogueObjects[currentDialogueIndex].SetActive(true);
-            currentDialogueIndex++;
+            // Mevcut diyaloðu göster
+            if (currentDialogueIndex < dialogueObjects.Length)
+            {
+                dialogueObjects[currentDialogueIndex].SetActive(true);
+                currentDialogueIndex++;
+            }
+            else
+            {
+                Debug.Log("Tüm diyaloglar gösterildi.");
+                isDialogueActive = false; // Diyaloglar bittiðinde durdur
+            }
         }
-        else
-        {
-            Debug.Log("Tüm diyaloglar gösterildi.");
-        }
+    }
+
+    public void StartDialogue()
+    {
+        currentDialogueIndex = 0;
+        isDialogueActive = true;
+        ShowNextDialogue();
     }
 
     // Bu metot, bir sonraki diyaloðu tetiklemek için kullanýlabilir

@@ -251,3 +251,354 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 387.208127 seconds.
+  path: Assets/Game/Game 2.unity
+  artifactKey: Guid(94a32b8497f391b4391697ee2f03f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Game 2.unity using Guid(94a32b8497f391b4391697ee2f03f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43712debeb2c264f0f46dba14fadab7f') in 0.008341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.770644 seconds.
+  path: Assets/Game/Game 1.unity
+  artifactKey: Guid(953a47af335e97f4288eef35d817a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Game 1.unity using Guid(953a47af335e97f4288eef35d817a538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771f1c29eb0f0efde5eeb767e6dbfd0a') in 0.000652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.408266 seconds.
+  path: Assets/Game/Game.unity
+  artifactKey: Guid(6e150aac8c7e7534aa913a77fe9be0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Game.unity using Guid(6e150aac8c7e7534aa913a77fe9be0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7281a1fd8fad761533f30df1119986cd') in 0.001492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2133.859529 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Models/FixedScaleCharacters/Characters.fbx
+  artifactKey: Guid(91028badc63f59f43a9c5bda64fbd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Models/FixedScaleCharacters/Characters.fbx using Guid(91028badc63f59f43a9c5bda64fbd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e1e5f6b7c5d7441e86bde95a76a39a') in 0.867046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 11.933007 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters
+  artifactKey: Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters using Guid(7a0516e445f74874fb3070d1ae5aae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ef767e4c26673e15d9a25bcafd170a') in 0.001466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.766936 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessMan_Shirt.prefab
+  artifactKey: Guid(7851e97aa32f5474f92b61e3e4988c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessMan_Shirt.prefab using Guid(7851e97aa32f5474f92b61e3e4988c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c871fb118b62663138bd492e9928f5') in 0.337867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.619606 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessWoman.prefab
+  artifactKey: Guid(c0f44381dd01e904c87fad2431087f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessWoman.prefab using Guid(c0f44381dd01e904c87fad2431087f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21927f72b3a8042ee0aa2b0314851fd2') in 0.025124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 5.020589 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Coat.prefab
+  artifactKey: Guid(83139230f1d12e941a1a4fe3717b6561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Coat.prefab using Guid(83139230f1d12e941a1a4fe3717b6561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7162dd68b67949b54c47ac9b6289cbc') in 0.027355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 4.550918 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Jacket.prefab
+  artifactKey: Guid(d461c345ada76d14f94fe72087cec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Jacket.prefab using Guid(d461c345ada76d14f94fe72087cec0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444f7f1ce890cadda1b0f6bf5c71eb8b') in 0.024393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 2.889954 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Police.prefab
+  artifactKey: Guid(5b920fc901e2cd945beaebdb578e5b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Police.prefab using Guid(5b920fc901e2cd945beaebdb578e5b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a233fd6e01f9870d6cf8e52bc17be92') in 0.024961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 25.303959 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Police.prefab
+  artifactKey: Guid(6aadac4ba6f145a48863dc87f16916d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Police.prefab using Guid(6aadac4ba6f145a48863dc87f16916d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4774894cc53a28f7fdebd11bfc607e2a') in 0.028082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 58.754794 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Jacket.prefab
+  artifactKey: Guid(5082799ad37f92b4bb2aaba2bdb7a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Jacket.prefab using Guid(5082799ad37f92b4bb2aaba2bdb7a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81bcbf2a99fae464a9499f63115fdbf') in 0.024216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 2140.755337 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessMan_Suit.prefab
+  artifactKey: Guid(1aeb5bfabdcdbcd4583e83139d952b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_BusinessMan_Suit.prefab using Guid(1aeb5bfabdcdbcd4583e83139d952b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcdb01d85e39471f0c016b13e96edc4') in 0.092661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 55.854000 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Hoodie.prefab
+  artifactKey: Guid(ad37c0f463d2b0e429d42a12ec7b2469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Male_Hoodie.prefab using Guid(ad37c0f463d2b0e429d42a12ec7b2469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f4a195ac5f7ba835fbfe11db931a20') in 0.041344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 860.220992 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Sitt_And_Laugh_Anim.controller
+  artifactKey: Guid(9d297af82ec409547add4f82bf5017bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Sitt_And_Laugh_Anim.controller using Guid(9d297af82ec409547add4f82bf5017bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdee28f93a9beaf1438cc7e9f8b09968') in 0.003061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 331.711078 seconds.
+  path: Assets/Animations/Sitting Laughing.fbx
+  artifactKey: Guid(14dbef73fdac17445b9b96c3b910f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Sitting Laughing.fbx using Guid(14dbef73fdac17445b9b96c3b910f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b6a5ac2e56426095a07ab0775ed591') in 0.006104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 168.881484 seconds.
+  path: Assets/Animations/Sitting Laughing.fbx
+  artifactKey: Guid(14dbef73fdac17445b9b96c3b910f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Sitting Laughing.fbx using Guid(14dbef73fdac17445b9b96c3b910f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea046f707aefb6c281a505909ac7f1df') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 353.943268 seconds.
+  path: Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters
+  artifactKey: Guid(3057162e47aef7a4a9ba89964c82facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonCity/Prefabs/Characters using Guid(3057162e47aef7a4a9ba89964c82facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9064ec7a4aaf43b1ea2a0813d19cbb34') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.648 seconds
+Refreshing native plugins compatible for Editor in 7.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.423 seconds
+Domain Reload Profiling: 2068ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 7.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (23.1 MB). Loaded Objects now: 5108.
+Memory consumption went from 218.6 MB to 195.5 MB.
+Total: 13.983600 ms (FindLiveObjects: 0.541600 ms CreateObjectMapping: 0.406400 ms MarkObjects: 5.626400 ms  DeleteObjects: 7.407800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.214 seconds
+Domain Reload Profiling: 1725ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (23.1 MB). Loaded Objects now: 5126.
+Memory consumption went from 220.5 MB to 197.4 MB.
+Total: 10.356600 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.253000 ms MarkObjects: 3.982000 ms  DeleteObjects: 5.530000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.298287 seconds.
+  path: Assets/SamplerPackAssets/PolygonPrototype/Models/FOV.fbx
+  artifactKey: Guid(6c71607f5442ec140a9649456733c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonPrototype/Models/FOV.fbx using Guid(6c71607f5442ec140a9649456733c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eda77786315f82cfdea44ea7a725b65') in 0.372073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Env_Small_Rocks_01.fbx
+  artifactKey: Guid(66a45a5fe593bf04a84b18741d0cccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Env_Small_Rocks_01.fbx using Guid(66a45a5fe593bf04a84b18741d0cccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e1a2e5d9e890cbd677ba09cb8d8213') in 0.027273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_04.fbx
+  artifactKey: Guid(01d6c4efb3237a04f9d6d6a6cea76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_04.fbx using Guid(01d6c4efb3237a04f9d6d6a6cea76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3001d730052a5cd216006d56b2edf4') in 0.038983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SamplerPackAssets/PolygonKnights/Models/SM_Env_Cloud_06.fbx
+  artifactKey: Guid(fa2c755c16cfc7847b3ce27b909c6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonKnights/Models/SM_Env_Cloud_06.fbx using Guid(fa2c755c16cfc7847b3ce27b909c6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b89b0e48beeec6fd6bbaa20fc3a54a') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_05.fbx
+  artifactKey: Guid(80614f8bf14ff3e4292ee9a2b75de99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_05.fbx using Guid(80614f8bf14ff3e4292ee9a2b75de99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da3e9b5425bbcfeb59dee25d1794f69') in 0.033890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_07.fbx
+  artifactKey: Guid(d131faf156439f04b961d7156a95bbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonSciFiCity/Models/SM_Bld_Section_Door_07.fbx using Guid(d131faf156439f04b961d7156a95bbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c4749ddba293c04b08cdb9a4529b27') in 0.049834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 35.980357 seconds.
+  path: Assets/Animations/Ch22_nonPBR@Gunplay.fbx
+  artifactKey: Guid(555ce81865ce8254685ee18a15e5681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Ch22_nonPBR@Gunplay.fbx using Guid(555ce81865ce8254685ee18a15e5681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baabe4ec453aeef5c2b4c2eeac1134d') in 0.004665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SamplerPackAssets/PolygonSamples/PolygonSciFiCity/Models/Character_Augmented_Male_01.fbx
+  artifactKey: Guid(7c7feee260018884e9aee7424fa8e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonSamples/PolygonSciFiCity/Models/Character_Augmented_Male_01.fbx using Guid(7c7feee260018884e9aee7424fa8e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb5d90d43d037e26a3085f3985240f2') in 0.098964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SamplerPackAssets/PolygonKnights/Models/Characters/Characters_POLYGON_Knights.fbx
+  artifactKey: Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SamplerPackAssets/PolygonKnights/Models/Characters/Characters_POLYGON_Knights.fbx using Guid(d288a0e4a2d923b46898986e979da643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c05e724f9dcef84f9d5da0cb51ee26a') in 0.129691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

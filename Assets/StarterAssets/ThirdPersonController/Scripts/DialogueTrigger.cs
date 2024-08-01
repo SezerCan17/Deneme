@@ -1,6 +1,7 @@
 using UnityEngine;
+using Photon.Pun;
 
-public class DialogueTrigger : MonoBehaviour
+public class DialogueTrigger : MonoBehaviourPun
 {
     public Dialog_Manager dialogManager;
 
@@ -8,7 +9,14 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            dialogManager.StartDialogue();
+            int playerID = other.GetComponent<PhotonView>().OwnerActorNr; // Oyuncunun ID'sini alýn
+            photonView.RPC("PlayerInteractedRPC", RpcTarget.All, playerID);
         }
+    }
+
+    [PunRPC]
+    public void PlayerInteractedRPC(int playerID)
+    {
+        dialogManager.PlayerInteracted(playerID);
     }
 }

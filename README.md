@@ -277,7 +277,7 @@ Level sayısına, karakterlere ve oyunun low poly bir tasarıma sahip olmasına 
   <details>
 <summary><h2>Sprint Notları</h2></summary>
 
-   Sprint içi tamamlanası beklenen puan 100'dür ve ... puan tamamlanmıştır.
+   Sprint içi tamamlanası beklenen puan 100'dür ve 100 tam puan tamamlanmıştır.
 
    *Puanlama Mantığı:*
    "Mini Game, Controller Seçme, Envanter Sistem, Oyun İçi Hedefler, Ses Seçimi, Menü Dizaynı, AI Entegrasyonu, Oyun İçi Diyalog Ekleme, UI Seçme ve NPC Kontrolü" olmak üzere her hedef 10 puan olacak şekilde belirlenmiştir. Tüm hedefler tamamlanmış ve sprintte 100 tam puana ulaşılmıştır.

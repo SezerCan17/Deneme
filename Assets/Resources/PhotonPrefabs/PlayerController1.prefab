@@ -1755,6 +1755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position1Name: Position1
+  canvas2: {fileID: 0}
+  canvas2_2: {fileID: 0}
 --- !u!1 &3042814782687670056
 GameObject:
   m_ObjectHideFlags: 0

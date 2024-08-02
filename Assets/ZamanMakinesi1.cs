@@ -9,6 +9,9 @@ public class ZamanMakinesi1 : MonoBehaviour
     private GameObject position1;
     private bool geldi = false;
 
+    public GameObject canvas2;
+    public GameObject canvas2_2;
+
     private void Start()
     {
         // Sahne yüklendiðinde position1 GameObject'ini bulun
@@ -43,7 +46,15 @@ public class ZamanMakinesi1 : MonoBehaviour
             {
                 Debug.Log("Position1 konumu: " + position1.transform.position);
                 transform.position = position1.transform.position;
+                canvas2.SetActive(true);
+                canvas2_2.SetActive(true);
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            canvas2.SetActive(false);
+            canvas2_2.SetActive(false);
         }
     }
 }

@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     float nextSpawnDelay = 5f; // Spawn delay süresini 5 saniye olarak belirleyin
     int maxSpawnCount = 20; // Maksimum spawn edilecek düþman sayýsý
 
+    
     private void Start()
     {
         StartCoroutine(SpawnEnemiesPeriodically());

@@ -19,6 +19,15 @@ public class Keypad : MonoBehaviour
     public GameObject clearButton;
     public GameObject enterButton;
 
+    public GameObject canvas;
+
+    public Animator solAnimator;
+    public bool cevap=false;
+
+   
+    public float speed = 1.5f;
+    private bool hasReachedEndPoint = false;
+
     public void b1() => AddCharacter("1");
     public void b2() => AddCharacter("2");
     public void b3() => AddCharacter("3");
@@ -44,11 +53,20 @@ public class Keypad : MonoBehaviour
     {
         if (charHolder.text == "190324")
         {
+            cevap = true;
+            canvas.SetActive(false);
             Debug.Log("Doðru");
+
         }
         else
         {
             Debug.Log("Hatalý");
+            cevap = false;
         }
     }
+
+
+    
+
+
 }

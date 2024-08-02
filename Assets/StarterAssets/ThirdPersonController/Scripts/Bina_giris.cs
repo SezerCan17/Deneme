@@ -11,6 +11,8 @@ public class Bina_Giris : MonoBehaviourPun
     public GameObject canvas20_2;
     public GameObject canvas21;
     public GameObject canvas21_2;
+
+    public GameObject keypad;
    
 
     private bool isPlayerInTrigger = false;
@@ -31,6 +33,7 @@ public class Bina_Giris : MonoBehaviourPun
         if (other.CompareTag("Player"))
         {
             isPlayerInTrigger = false;
+            keypad.SetActive(false);
             currentIndex = 0;
         }
     }
@@ -69,6 +72,7 @@ public class Bina_Giris : MonoBehaviourPun
             {
                 canvas21.SetActive(false);
                 canvas21_2.SetActive(false);
+                keypad.SetActive(true);
                 currentIndex++;
             }
 

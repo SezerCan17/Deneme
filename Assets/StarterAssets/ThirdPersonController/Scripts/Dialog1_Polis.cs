@@ -19,7 +19,7 @@ public class Dialog1_Polis : MonoBehaviourPun
     public GameObject canvas17_2;
 
     public GameObject Bilmece;
-    public bool cevap=false;
+    public bool cevap = false;
 
     private bool isPlayerInTrigger = false;
     private int currentIndex = 0;
@@ -38,6 +38,7 @@ public class Dialog1_Polis : MonoBehaviourPun
         {
             isPlayerInTrigger = false;
             currentIndex = 0;
+            DeactivateAllCanvases();
         }
     }
 
@@ -49,13 +50,12 @@ public class Dialog1_Polis : MonoBehaviourPun
             {
                 canvas11.SetActive(true);
                 canvas11_2.SetActive(true);
-
                 currentIndex++;
             }
         }
+
         if (isPlayerInTrigger && UnityEngine.Input.GetKeyDown(KeyCode.R))
         {
-
             if (currentIndex == 1)
             {
                 canvas11.SetActive(false);
@@ -88,21 +88,20 @@ public class Dialog1_Polis : MonoBehaviourPun
                 canvas15_2.SetActive(true);
                 currentIndex++;
             }
-            
         }
 
-        if(currentIndex == 5)
+        if (currentIndex == 5)
         {
             Bilmece.SetActive(true);
         }
 
-        if (currentIndex == 6 && cevap)
+        if (currentIndex == 6 && cevap == true)
         {
             canvas16.SetActive(true);
             canvas16_2.SetActive(true);
             currentIndex++;
         }
-        else if (currentIndex == 7)
+        else if (currentIndex == 7 && cevap == true)
         {
             canvas16.SetActive(false);
             canvas16_2.SetActive(false);
@@ -110,26 +109,44 @@ public class Dialog1_Polis : MonoBehaviourPun
             canvas17_2.SetActive(true);
             currentIndex++;
         }
-        else if(currentIndex == 8)
+        else if (currentIndex == 8 && cevap == true)
         {
             canvas17.SetActive(false);
             canvas17_2.SetActive(false);
             currentIndex++;
         }
-
     }
 
     public void DogruCevap()
     {
         cevap = true;
+        Debug.Log("Cevap doðru");
         canvas15.SetActive(false);
         canvas15_2.SetActive(false);
-        currentIndex++;
+        currentIndex = 6;  // Make sure to set the correct index for the next step
         Bilmece.SetActive(false);
     }
 
     public void YanlisCevap()
     {
         cevap = false;
+    }
+
+    private void DeactivateAllCanvases()
+    {
+        canvas11.SetActive(false);
+        canvas11_2.SetActive(false);
+        canvas12.SetActive(false);
+        canvas12_2.SetActive(false);
+        canvas13.SetActive(false);
+        canvas13_2.SetActive(false);
+        canvas14.SetActive(false);
+        canvas14_2.SetActive(false);
+        canvas15.SetActive(false);
+        canvas15_2.SetActive(false);
+        canvas16.SetActive(false);
+        canvas16_2.SetActive(false);
+        canvas17.SetActive(false);
+        canvas17_2.SetActive(false);
     }
 }

@@ -13,6 +13,8 @@ public class DialogueTrigger : MonoBehaviourPun
     public GameObject canvas9_2;
     public GameObject canvas10;
     public GameObject canvas10_2;
+    public GameObject KeyImage1;
+    public GameObject KeyImage2;
 
     private bool isPlayerInTrigger = false;
     private int currentIndex = 0;
@@ -85,6 +87,8 @@ public class DialogueTrigger : MonoBehaviourPun
             {
                 canvas10.SetActive(false);
                 canvas10_2.SetActive(false);
+                KeyImage1.SetActive(true);
+                KeyImage2.SetActive(true);
                 currentIndex++;
             }
         }

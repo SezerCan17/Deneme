@@ -560,7 +560,6 @@ GameObject:
   m_Component:
   - component: {fileID: 523921408464053035}
   - component: {fileID: 3108852609512516037}
-  - component: {fileID: 3226052913669678342}
   - component: {fileID: 3773864745249569254}
   - component: {fileID: 4591033133322396285}
   - component: {fileID: 4036775484259039301}
@@ -640,18 +639,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &3226052913669678342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278856505629426727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2974149c6fb01b409a280581634da96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &3773864745249569254
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1377,6 +1364,7 @@ GameObject:
   - component: {fileID: 2725309677442713877}
   - component: {fileID: 4212864254912342181}
   - component: {fileID: 3225157404682439251}
+  - component: {fileID: 5750751876982764605}
   m_Layer: 0
   m_Name: PlayerController1
   m_TagString: Player
@@ -1754,6 +1742,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1278856505629426727}
+--- !u!114 &5750751876982764605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2871362869299117626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751ee71c9b479e84892eb0bf5c700456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position1Name: Position1
 --- !u!1 &3042814782687670056
 GameObject:
   m_ObjectHideFlags: 0

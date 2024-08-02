@@ -26,9 +26,13 @@ public class First_Talk : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-            canvas1.SetActive(true);
-            canvas2.SetActive(true);
-            currentIndex++;
+            if(currentIndex == 0)
+            {
+                canvas1.SetActive(true);
+                canvas2.SetActive(true);
+                currentIndex++;
+            }
+            
         }
         if (UnityEngine.Input.GetKeyDown(KeyCode.R))
         {

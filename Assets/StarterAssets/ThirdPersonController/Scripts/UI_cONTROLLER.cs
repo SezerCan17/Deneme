@@ -7,6 +7,7 @@ public class UIController : MonoBehaviour
 {
     public GameObject canvas1; // UI öðesi
     public GameObject canvas2;
+    public GameObject bilmeceCanvas;
     public GameObject character; // Karakter GameObject'i
     
     //private Controller2 controllerScript; // Karakterin kontrol script'i
@@ -23,7 +24,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         // UI açýk mý kontrol edin
-        if (canvas1.activeSelf || canvas2.activeSelf)
+        if (canvas1.activeSelf || canvas2.activeSelf || bilmeceCanvas.activeSelf)
         {
             // Karakterin kontrol script'ini devre dýþý býrak
             //if (controllerScript != null)
